@@ -9,7 +9,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - uses: actions/acheckout@v2
-        - uses: actions/setup-nodev1
+        - uses: actions/setup-node@v1
           with:
             node-version: 16
         - run: npm ci
