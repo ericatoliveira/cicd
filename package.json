@@ -1,0 +1,22 @@
+{
+  "name": "cicd",
+  "version": "1.0.0",
+  "description": "��c\u0000i\u0000c\u0000d\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Tests running...\"",
+    "build": "echo \"Build running...\"",
+    "deploy": "echo \"Deploying new build to cloud server...\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericatoliveira/cicd.git"
+  },
+  "keywords": [],
+  "author": "ETO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericatoliveira/cicd/issues"
+  },
+  "homepage": "https://github.com/ericatoliveira/cicd#readme"
+}

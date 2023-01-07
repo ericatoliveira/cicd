@@ -1,0 +1,17 @@
+name: Hello GitHub Actions
+
+on:
+  push:
+    branches: ["*"]
+
+jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/acheckout@v2
+        - uses: actions/setup-nodev1
+          with:
+            node-version: 16
+        - run: npm ci
+        - run: npm run test
+        - run: npm run build
